@@ -8,7 +8,7 @@ function Home() {
 
   //create heading
   const headingOne = document.createElement("h2");
-  headingOne.classList.add("heading");
+  headingOne.classList.add("headingOne");
   headingOne.textContent = "Welcome to Zanzi's Zest!";
   homeContainer.appendChild(headingOne);
 
@@ -63,7 +63,7 @@ function Home() {
 
   //create heading
   const headingTwo = document.createElement("h3");
-  headingTwo.classList.add("heading");
+  headingTwo.classList.add("headingTwo");
   headingTwo.textContent =
     "Come Taste the Zest of South Africa at Zanzi's Zest!";
   homeContainer.appendChild(headingTwo);

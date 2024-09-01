@@ -12,7 +12,7 @@ body {
   background-image: url(../images/pexels-francesco-ungaro-5623163.jpg);
   background-repeat: no-repeat;
   background-size: 2000px;
-  background-blend-mode: darken;
+  backdrop-filter: blur(1px);
 }
 #title {
   text-align: center;
@@ -33,6 +33,7 @@ header {
 
 nav {
   color: transparent;
+  word-spacing: 70px;
 }
 button {
   border: none;

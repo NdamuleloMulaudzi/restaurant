@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Almarai;
+  src: url(../fonts/Almarai/Almarai-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Almarai-Regular;
+  src: url(../fonts/Almarai/Almarai-Regular.ttf);
+}
+
+:root {
+  --primary-color: #fbf5df;
+  --primary-font: Almarai;
+}
+#homeSection {
+  color: var(--primary-color);
+  font-size: 1.3em;
+  text-align: center;
+}
+.heading,
+.sub-heading {
+  font-family: var(--primary-font);
+}
+p,
+li {
+  text-align: center;
+  padding: 1px 20%;
+  font-family: Almarai-Regular;
+}
+
+span {
+  font-weight: 900;
+}
+ul {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+.headingOne {
+  margin-top: 30px;
+}
