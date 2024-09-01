@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Protest;
+  src: url(../fonts/Protest_Guerrilla/ProtestGuerrilla-Regular.ttf);
+}
+
+:root {
+  --primary-color: #fbf5df;
+  --primary-font: Almarai;
+}
+
+body {
+  background-image: url(../images/pexels-francesco-ungaro-5623163.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  background-blend-mode: darken;
+}
+#title {
+  text-align: center;
+  font-family: Protest;
+  font-size: 3.5em;
+  font-weight: 900;
+  color: #eee8d2;
+}
+#title:hover {
+  color: var(--primary-color);
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+nav {
+  color: transparent;
+}
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.6em;
+  color: #eee8d2;
+  border-bottom: 1px solid transparent;
+}
+
+button:hover {
+  cursor: pointer;
+  border-bottom: 1px #eee8d2 solid;
+}
