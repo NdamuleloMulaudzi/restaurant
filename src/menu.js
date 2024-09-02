@@ -20,19 +20,23 @@ function Menu() {
   menuStarterItems.innerHTML = `<ol>
   <li class="1">
     <h3>Bobotie Spring Rolls</h3>
-    <p>A fusion of traditional Cape Malay spiced mince with egg custard, wrapped in crispy spring roll pastry. Served with a tangy apricot chutney dipping sauce.</p>
+    <p>Crispy rolls filled with spiced mince and egg custard, served with apricot chutney</p>
   </li>
+  <p class="price">Price: R75</p>
   <li class="2">
     <h3>Peri-Peri Prawns</h3>
-    <p>Grilled prawns marinated in a house-made peri-peri sauce, served with a fresh lemon wedge and garlic aioli.</p>
+    <p>Grilled prawns in house-made peri-peri sauce, with garlic aioli.</p>
+    <p class="price">Price: R95</p>
   </li>
   <li class="3">
     <h3>Biltong & Cheese Platter</h3>
-    <p>A selection of South African biltong (cured meat) and droëwors, accompanied by local cheeses and pickled veggies.</p>
+    <p><Selection of biltong, droëwors, local cheeses, and pickled veggies/p>
+    <p class="price">Price: R110</p>
   </li>
   <li class="4">
     <h3>Pap and Chakalaka Bites</h3>
-    <p> Creamy maize meal balls stuffed with a spicy tomato, onion, and bean relish. Served with a cool cucumber raita.</p>
+    <p>Creamy maize meal balls with spicy tomato, onion, and bean relish</p>
+    <p class="price">Price: R70</p>
   </li>
   </ol>`;
   menuContainer.appendChild(menuStarterItems);
