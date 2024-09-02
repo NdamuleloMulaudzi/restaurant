@@ -1,3 +1,5 @@
+import "./styles/menu.css";
+
 function Menu() {
   const content = document.querySelector("#content");
   const menuContainer = document.createElement("div");
@@ -14,10 +16,10 @@ function Menu() {
   menuStarterItems.classList.add("menu-items");
   //menu starters
   const menuStarters = document.createElement("h2");
-  menuStarters.setAttribute("class", "menu-starters");
+  menuStarters.setAttribute("class", "menu-subheading");
   menuStarters.textContent = "Starters";
   menuContainer.appendChild(menuStarters);
-  menuStarterItems.innerHTML = `<ol>
+  menuStarterItems.innerHTML = `<ol class="menu-items">
   <li class="1">
     <h3>Bobotie Spring Rolls</h3>
     <p>Crispy rolls filled with spiced mince and egg custard, served with apricot chutney</p>
@@ -30,7 +32,7 @@ function Menu() {
   </li>
   <li class="3">
     <h3>Biltong & Cheese Platter</h3>
-    <p><Selection of biltong, droëwors, local cheeses, and pickled veggies/p>
+    <p><Selection of biltong, droëwors, local cheeses, and pickled veggies</p>
     <p class="price">Price: R110</p>
   </li>
   <li class="4">
@@ -46,10 +48,10 @@ function Menu() {
   menuMainCouresItems.classList.add("menu-items");
 
   const menuMainCourse = document.createElement("h2");
-  menuMainCourse.setAttribute("class", "menu-maincourse");
+  menuMainCourse.setAttribute("class", "menu-subheading");
   menuMainCourse.textContent = "Main Course";
   menuContainer.appendChild(menuMainCourse);
-  menuMainCouresItems.innerHTML = `<ol>
+  menuMainCouresItems.innerHTML = `<ol class="menu-items">
     <li class="1">
       <h3>Cape Malay Curry</h3>
       <p>Fragrant chicken or vegetable curry with coconut milk and dried fruit</p>

@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #fbf5df;
+  --primary-font: sorts;
+}
+@font-face {
+  font-family: sorts;
+  src: url(../fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf);
+}
+
+@font-face {
+  font-family: playWrite;
+  src: url(../fonts/Playwrite_CL/PlaywriteCL-VariableFont_wght.ttf);
+}
+.menuSection {
+  font-family: var(--primary-font);
+  margin: 70px;
+  background-color: rgb(47, 49, 48);
+  color: var(--primary-color);
+}
+
+.menu-heading {
+  text-align: center;
+  border-bottom: 1px solid yellow;
+  padding: 30px;
+  font-family: playWrite;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-subheading {
+  text-align: center;
+  border: 2px solid rgb(184, 184, 145);
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+.menu-items {
+  list-style-position: inside;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+}
+p {
+  font-size: 1.3em;
+}
