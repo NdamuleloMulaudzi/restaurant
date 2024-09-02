@@ -1,0 +1,53 @@
+@font-face {
+  font-family: sorts;
+  src: url(../fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf);
+}
+
+@font-face {
+  font-family: playWrite;
+  src: url(../fonts/Playwrite_CL/PlaywriteCL-VariableFont_wght.ttf);
+}
+:root {
+  --primary-color: #fbf5df;
+  --primary-font: sorts;
+}
+
+.contactSection {
+  background-color: rgb(47, 49, 48);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  padding: 40px;
+  gap: 50px;
+  color: beige;
+  border-radius: 20px;
+  width: 70vw;
+  font-family: var(--primary-font);
+}
+
+.contact-heading {
+  text-align: center;
+  background-color: rgb(47, 49, 48);
+  text-align: center;
+  border: 1px solid yellow;
+  font-style: italic;
+  color: var(--primary-color);
+  padding: 30px;
+  font-family: playWrite;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7em;
+}
+
+.image {
+  border-radius: 30px;
+}
+
+.contact-info {
+  text-align: center;
+  width: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
