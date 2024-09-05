@@ -7,6 +7,7 @@
   font-family: playWrite;
   src: url(../fonts/Playwrite_CL/PlaywriteCL-VariableFont_wght.ttf);
 }
+
 :root {
   --primary-color: #fbf5df;
   --primary-font: sorts;
@@ -50,4 +51,51 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .contactSection {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    width: 90vw;
+  }
+
+  .contact-heading {
+    width: 80%;
+    font-size: 1.1em;
+    padding: 20px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-info {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contactSection {
+    padding: 10px;
+    gap: 10px;
+    width: 95vw;
+  }
+
+  .contact-heading {
+    width: 100%;
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  .image {
+    border-radius: 15px;
+  }
+
+  .contact-info {
+    font-size: 0.9em;
+  }
 }
